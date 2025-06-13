@@ -1,0 +1,22 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-group {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  img {
+    aspect-ratio: 1;
+  }
+  .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: var(--primary1);
+    .part2 {
+      color: var(--secondary1);
+    }
+  }
+}
